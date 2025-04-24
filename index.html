@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
+        <title>The Generic Mapping Tools</title>
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css?v=fa2d15c4" />
+    <link rel="stylesheet" type="text/css" href="_static/style.css?v=95d88e99" />
+    <link rel="stylesheet" type="text/css" href="_static/fontawesome/css/all.css?v=efc38b36" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=b3ba4146"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <link rel="icon" href="_static/favicon.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="About" href="about/index.html" />
+
+    
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="_static/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="_static/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://www.generic-mapping-tools.org/_static/gmt-logo.jpg">
+    <meta name="twitter:title" content="The Generic Mapping Tools">
+    <meta name="twitter:description" content="The swiss army knife of geoscience">
+
+    <meta property="og:title" content="The Generic Mapping Tools">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.generic-mapping-tools.org">
+    <meta property="og:site_name" content="The Generic Mapping Tools">
+    <meta property="og:image" content="https://www.generic-mapping-tools.org/_static/gmt-logo.jpg">
+    <meta property="og:description" content="The swiss army knife of geoscience">
+
+    <!-- Include Google Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+    <!-- Google Analytics tracking code -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+            Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38125837-8', 'auto', {'storage': 'none'});
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+
+  </head><body>
+    
+<div class="container-fluid menu text-center">
+    <div class="col-lg-12">
+        
+            <ul class="menu-list">
+                    <li><a href="/"><strong>Home</strong></a></li>
+                    <li><a href="about/"><strong>About</strong></a></li>
+                    <li><a href="download/"><strong>Download</strong></a></li>
+                    <li><a href="mirrors/"><strong>Mirrors</strong></a></li>
+                    <li><a href="cite/"><strong>Citing</strong></a></li>
+                    <li><a href="documentation/"><strong>Documentation</strong></a></li>
+                    <li><a href="projects/"><strong>Ecosystem</strong></a></li>
+                    <li><a href="workshops/"><strong>Workshops</strong></a></li>
+                    <li><a href="https://github.com/GenericMappingTools/try-gmt" title="Try Online" target="_blank"><strong>Try Online!</strong></a></li>
+                    <li><a href="https://forum.generic-mapping-tools.org/" title="Forum" target="_blank"><strong>Forum</strong></a></li>
+                    <li><a href="https://github.com/GenericMappingTools" title="GitHub" target="_blank"><i class="fab fa-github fa-lg"></i></a></li>
+                    <li><a href="https://www.youtube.com/c/TheGenericMappingTools" title="YouTube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a></li>
+                    <li><a href="https://www.instagram.com/genericmappingtools/" title="Instagram" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+            </ul>
+        
+    </div>
+</div>
+
+    
+         <div class="container">
+     <div class="row">
+         <div class="col-lg-2 col-sm-2 col-xs-0">
+         </div>
+         <div class="col-lg-8 col-sm-8 col-xs-12">
+             <img class="front-logo" src="_static/gmt-logo.png">
+         </div>
+         <div class="col-lg-2 col-sm-2 col-xs-0">
+         </div>
+     </div>
+ </div>
+
+<div class="container-fluid front-block front-block-dark">
+     <div class="row">
+         <div class="col-sm-7 col-sm-push-5 front-block-text">
+
+         <h2>A toolbox for Earth, Ocean, and Planetary Science</h2>
+
+         <p>
+         The Generic Mapping Tools (GMT) are widely used across the Earth,
+         Ocean, and Planetary sciences and beyond. A diverse community uses
+         GMT to process data, generate publication-quality illustrations,
+         automate workflows, and make animations. Scientific journals,
+         posters at meetings, Wikipedia pages, and many more publications
+         display illustrations made by GMT. And the best part: it is free,
+         open source software licensed under the
+         <a href="https://www.gnu.org/licenses/lgpl-3.0.html" target="_blank">LGPL</a>.
+         </p>
+         <p>
+         <strong>Got questions?</strong>
+         Join the friendly <a href="https://forum.generic-mapping-tools.org/" target="_blank">
+         <i class="fab fa-discourse"></i> GMT Community Forum</a> to get help
+         and connect with other users and developers.
+         </p>
+         <p>
+         <strong>Want to use GMT in MATLAB/Octave, Julia, or Python?</strong>
+         Check out the <a href="https://www.generic-mapping-tools.org/projects/#gmt-interfaces">GMT interfaces</a>!
+         </p>
+
+         </div>
+        <div class="col-sm-5 col-sm-pull-7">
+             <img src="_static/figures/lithospheric-age.png">
+         </div>
+     </div>
+</div>
+
+<div class="container-fluid front-block front-block-light">
+     <div class="row">
+         <div class="col-sm-7 front-block-text">
+
+         <h2>Publication quality figures and animations</h2>
+
+         <p>
+         Whether Cartesian, geographic, or time-series, GMT can process your data.
+         GMT enables you to explore new ways to analyze data and to build custom
+         displays for drafts, publications, or final presentations.  GMT allows
+         unlimited customization via scripting in several languages.
+         </p>
+         <p>
+         Visit our <a href="/documentation"> Documentation</a> page to find out all
+         that GMT can do for you.
+         </p>
+         <p>
+         <strong>Used GMT in your research?</strong> Please
+         consider <a href="cite">citing GMT</a> so we can justify the continued
+         development efforts.
+         </p>
+
+         </div>
+         <div class="col-sm-5">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2500">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <a href="https://docs.generic-mapping-tools.org/latest/gallery/ex49.html" target="_blank">
+                  <img src="_static/figures/example_49.jpg">
+                  </a>
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="https://commons.wikimedia.org/wiki/File:MacedonEmpire.jpg" target="_blank">
+                  <img src="_static/figures/alexander.jpg">
+                  </a>
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="https://docs.generic-mapping-tools.org/latest/gallery/ex08.html" target="_blank">
+                  <img src="_static/figures/example_08.jpg">
+                  </a>
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="https://docs.generic-mapping-tools.org/latest/gallery/ex07.html" target="_blank">
+                  <img src="_static/figures/example_07.jpg">
+                  </a>
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="https://docs.generic-mapping-tools.org/latest/gallery/ex28.html" target="_blank">
+                  <img src="_static/figures/example_28.jpg">
+                  </a>
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item">
+                  <a href="https://docs.generic-mapping-tools.org/latest/gallery/ex09.html" target="_blank">
+                  <img src="_static/figures/example_09.jpg">
+                  </a>
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+         </div>
+     </div>
+</div>
+
+<div class="container-fluid front-block front-block-dark">
+     <div class="row">
+         <div class="col-sm-7 col-sm-push-5 front-block-text">
+
+         <h2>C, MATLAB, Julia, Python</h2>
+
+         <p>
+         GMT has been used from UNIX and Windows command lines for decades.  More
+         recently, GMT has been rebuilt as an Application Programming Interface (API)
+         and can now be accessed via wrapper libraries from MATLAB/Octave, Julia, and
+         Python, as well from custom programs written in C or C++.
+         </p>
+         <p>
+         See all the projects the team is working on in the
+         <a href="/projects">Ecosystem</a> page.
+         </p>
+         <p>
+         <strong>Want to see the code?</strong> All development happens through
+         GitHub in our
+         <a href="https://github.com/GenericMappingTools" target="_blank"><i class="fab fa-github"></i>
+         GenericMappingTools account</a>.
+         </p>
+
+         </div>
+         <div class="col-sm-5 col-sm-pull-7">
+             <img src="_static/languages.svg">
+         </div>
+     </div>
+</div>
+
+<div class="container-fluid front-block front-block-light front-updates">
+     <div class="row">
+         <div class="col-sm-4 front-block-text">
+            <h2>News</h2>
+
+            <ul>
+            <li>
+               2024-12-09:
+               The GMT team organized the Union Session "The impact of GMT in the Earth, Ocean and Space sciences: What's next?" (U12B and U13B)
+               at the AGU Annual Meeting in Washington, DC, 2024 with talks and posters on GMT, the wrappers, and related topics.
+            </li>
+            <li>
+               2024-12-08:
+               The GMT and PyGMT teams organised the pre-conference workshop "Mastering Geospatial Visualizations with GMT/PyGMT" (PREWS9)
+               at the AGU Annual Meeting in Washington, DC, 2024.
+            </li>
+            <li>
+               2023-08-17:
+               The GMT developer team finally was able to have a GMT Summit, this time in Oslo over July 17-21, 2023.
+            </li>
+            <li>
+               2023-01-22:
+               The <a href="https://www.agu.org/Honor-and-Recognize/Honors/Section-Awards/Leptoukh-Lecture">Greg Leptoukh</a> and <a href="https://www.egu.eu/awards-medals/ian-mcharg/">Ian McHarg Medal</a> Lectures presented by Paul Wessel, recognizing his significant contributions to Earth and space sciences, are now available on the <a href="https://www.youtube.com/playlist?list=PL3GHXjKa-p6Xiy4SRkyBh9BvgVlzu26Y-">GMT YouTube channel</a>!
+            </li>
+            <li>
+               2022-06-16:
+               Our <a href="https://doi.org/10.1029/2019GC008515">2019 paper on GMT</a> was an AGU/Wiley top download during 2019 and 2020!
+            </li>
+            <li>
+               2022-01-18:
+               New datasets are available through the GMT remote file feature! See the <a href="https://www.generic-mapping-tools.org/remote-datasets/">remote dataset documentation</a> for details.
+            </li>
+            </ul>
+            <p>
+            <a href="/news">more »</a>
+            </p>
+
+         </div>
+         <div class="col-sm-4 front-block-text">
+            <h2>Upcoming workshops</h2>
+
+
+            <p>
+            <a href="/workshops#future-workshops">more »</a>
+            </p>
+         </div>
+         <div class="col-sm-4 front-block-text">
+            <h2>Latest releases</h2>
+            <div class="shield">
+            <a href="https://github.com/GenericMappingTools/gmt/releases" target="_blank">
+                  <img alt="GMT GitHub release (latest by date)" vspace="10" src="https://img.shields.io/github/release/GenericMappingTools/gmt?label=GMT">
+            </a>
+            </div>
+            <div class="shield">
+            <a href="https://github.com/GenericMappingTools/GMT.jl/releases" target="_blank">
+                  <img alt="GMT.jl GitHub release (latest by date)" vspace="10" src="https://img.shields.io/github/release/GenericMappingTools/GMT.jl?label=GMT.jl">
+            </a>
+            </div>
+            <div class="shield">
+            <a href="https://github.com/GenericMappingTools/pygmt/releases" target="_blank">
+                  <img alt="PyGMT GitHub release (latest by date)" vspace="10" src="https://img.shields.io/github/v/release/GenericMappingTools/pygmt?label=PyGMT">
+            </a>
+            </div>
+            <p>
+            <a href="/download">more »</a>
+            </p>
+         </div>
+     </div>
+</div><div class="toctree-wrapper compound">
+</div>
+
+    
+
+
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+            <p>
+                &copy; Copyright 2019 - 2025, The GMT Developers.
+            </p>
+            <p>
+                
+                    Created using
+                    <a href="http://sphinx-doc.org/">Sphinx</a> 7.1.2
+                
+                from source code at
+                <a href="https://github.com/GenericMappingTools/website/">GenericMappingTools/website</a>.
+                
+                    Last updated on 2025-04-24.
+                
+            </p>
+            <p>
+                GMT is supported by the
+                <a href="https://www.soest.hawaii.edu">School of Ocean and Earth Science and Technology</a>
+                of the University of Hawai'i at Mānoa and grants from the
+                <a href="https://www.nsf.gov">National Science Foundation</a>.
+            </p>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="https://www.soest.hawaii.edu"><img src="https://www.generic-mapping-tools.org/_static/soest-logo.png"></a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="https://www.nsf.gov"><img src="https://www.generic-mapping-tools.org/_static/nsf-logo.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  </body>
+</html>

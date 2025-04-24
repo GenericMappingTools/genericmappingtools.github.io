@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    
+        
+    <title>Projects &#8212; The Generic Mapping Tools</title>
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+    <link rel="stylesheet" type="text/css" href="../_static/bootstrap-sphinx.css?v=fa2d15c4" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=95d88e99" />
+    <link rel="stylesheet" type="text/css" href="../_static/fontawesome/css/all.css?v=efc38b36" />
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=b3ba4146"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Workshops" href="../workshops/index.html" />
+    <link rel="prev" title="Citing GMT" href="../cite/index.html" />
+
+    
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="../_static/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../_static/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://www.generic-mapping-tools.org/_static/gmt-logo.jpg">
+    <meta name="twitter:title" content="Projects">
+    <meta name="twitter:description" content="The swiss army knife of geoscience">
+
+    <meta property="og:title" content="Projects">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.generic-mapping-tools.org">
+    <meta property="og:site_name" content="Projects">
+    <meta property="og:image" content="https://www.generic-mapping-tools.org/_static/gmt-logo.jpg">
+    <meta property="og:description" content="The swiss army knife of geoscience">
+
+    <!-- Include Google Fonts CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+    <!-- Google Analytics tracking code -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+            Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38125837-8', 'auto', {'storage': 'none'});
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+
+  </head><body>
+    
+<div class="container-fluid menu text-center">
+    <div class="col-lg-12">
+        
+            <ul class="menu-list">
+                    <li><a href="/"><strong>Home</strong></a></li>
+                    <li><a href="../about/"><strong>About</strong></a></li>
+                    <li><a href="../download/"><strong>Download</strong></a></li>
+                    <li><a href="../mirrors/"><strong>Mirrors</strong></a></li>
+                    <li><a href="../cite/"><strong>Citing</strong></a></li>
+                    <li><a href="../documentation/"><strong>Documentation</strong></a></li>
+                    <li><a href="./"><strong>Ecosystem</strong></a></li>
+                    <li><a href="../workshops/"><strong>Workshops</strong></a></li>
+                    <li><a href="https://github.com/GenericMappingTools/try-gmt" title="Try Online" target="_blank"><strong>Try Online!</strong></a></li>
+                    <li><a href="https://forum.generic-mapping-tools.org/" title="Forum" target="_blank"><strong>Forum</strong></a></li>
+                    <li><a href="https://github.com/GenericMappingTools" title="GitHub" target="_blank"><i class="fab fa-github fa-lg"></i></a></li>
+                    <li><a href="https://www.youtube.com/c/TheGenericMappingTools" title="YouTube" target="_blank"><i class="fab fa-youtube fa-lg"></i></a></li>
+                    <li><a href="https://www.instagram.com/genericmappingtools/" title="Instagram" target="_blank"><i class="fab fa-instagram fa-lg"></i></a></li>
+            </ul>
+        
+    </div>
+</div>
+
+    
+    <div class="container">
+    
+        <section id="the-gmt-ecosystem">
+<h1>The GMT ecosystem<a class="headerlink" href="#the-gmt-ecosystem" title="Permalink to this heading">¶</a></h1>
+<p>A bit about main GMT, the external interfaces, and derived projects (GMTSAR, MB-System).</p>
+<section id="core-gmt">
+<h2>Core GMT<a class="headerlink" href="#core-gmt" title="Permalink to this heading">¶</a></h2>
+<p>The core GMT API library lies at the center of GMT. It powers the command-line modules
+typically scripted in shell languages (bash, csh, etc).  It can also be linked with
+a user’s custom C or C++ program to extend GMT into discipline-specific processing or
+plotting for applications not currently supported by the core GMT package.</p>
+<ul class="fa-ul">
+   <li><i class="fa-li fa fa-book fa-fw"></i>
+      <a href="https://docs.generic-mapping-tools.org">Documentation</a>
+   </li>
+   <li><i class="fa-li fab fa-github fa-fw"></i>
+      <a href="https://github.com/GenericMappingTools/gmt">GenericMappingTools/gmt</a>
+   </li>
+</ul></section>
+<section id="gmt-interfaces">
+<h2>GMT interfaces<a class="headerlink" href="#gmt-interfaces" title="Permalink to this heading">¶</a></h2>
+<section id="gmtmex">
+<h3>GMTMex<a class="headerlink" href="#gmtmex" title="Permalink to this heading">¶</a></h3>
+<p>The GMT/MATLAB toolbox allows users of MATLAB and Octave to write scripts in those
+environments that calls the GMT modules directly.  Users can pass and retrieve data
+from and to their environment and benefit from the best of both worlds.</p>
+<ul class="fa-ul">
+   <li><i class="fa-li fa fa-book fa-fw"></i>
+      <a href="https://github.com/GenericMappingTools/gmtmex/wiki">Documentation</a>
+   </li>
+   <li><i class="fa-li fab fa-github fa-fw"></i>
+      <a href="https://github.com/GenericMappingTools/gmtmex">GenericMappingTools/gmtmex</a>
+   </li>
+</ul></section>
+<section id="gmt-jl">
+<h3>GMT.jl<a class="headerlink" href="#gmt-jl" title="Permalink to this heading">¶</a></h3>
+<p>The GMT.jl wrapper is intended not only to access GMT from within the Julia language
+but also to provide a more modern interface to the GMT modules by fully expanding the compact
+syntax into long options names.</p>
+<ul class="fa-ul">
+   <li><i class="fa-li fa fa-book fa-fw"></i>
+      <a href="https://www.generic-mapping-tools.org/GMTjl_doc/">Documentation</a>
+   </li>
+   <li><i class="fa-li fab fa-github fa-fw"></i>
+      <a href="https://github.com/GenericMappingTools/GMT.jl">GenericMappingTools/GMT.jl</a>
+   </li>
+</ul></section>
+<section id="pygmt">
+<h3>PyGMT<a class="headerlink" href="#pygmt" title="Permalink to this heading">¶</a></h3>
+<p>A Python library for accessing GMT’s plotting and data processing capabilities from a
+simplified, object-oriented interface that is compatible with the
+<a class="reference external" href="https://jupyter.org/">Jupyter notebook</a>.</p>
+<ul class="fa-ul">
+   <li><i class="fa-li fa fa-book fa-fw"></i>
+      <a href="https://www.pygmt.org">Documentation</a>
+   </li>
+   <li><i class="fa-li fab fa-github fa-fw"></i>
+      <a href="https://github.com/GenericMappingTools/pygmt">GenericMappingTools/pygmt</a>
+   </li>
+</ul></section>
+</section>
+<section id="software-relying-on-gmt">
+<h2>Software relying on GMT<a class="headerlink" href="#software-relying-on-gmt" title="Permalink to this heading">¶</a></h2>
+<section id="gmtsar">
+<h3>GMTSAR<a class="headerlink" href="#gmtsar" title="Permalink to this heading">¶</a></h3>
+<p>An open source (GNU General Public License) InSAR processing system based on GMT and
+designed for users familiar with Generic Mapping Tools (GMT). The code is written in C
+and will compile on any computer where GMT and NetCDF are installed.</p>
+<ul class="fa-ul">
+   <li><i class="fa-li fa fa-book fa-fw"></i>
+      <a href="https://topex.ucsd.edu/gmtsar/">Documentation</a>
+   </li>
+   <li><i class="fa-li fab fa-github fa-fw"></i>
+      <a href="https://github.com/gmtsar/gmtsar">gmtsar/gmtsar</a>
+   </li>
+</ul></section>
+<section id="mb-system">
+<h3>MB-System<a class="headerlink" href="#mb-system" title="Permalink to this heading">¶</a></h3>
+<p>An open source software package for the processing and display of bathymetry and
+backscatter imagery data derived from multibeam, interferometry, and sidescan sonars.</p>
+<ul class="fa-ul">
+   <li><i class="fa-li fa fa-book fa-fw"></i>
+      <a href="https://www.mbari.org/products/research-software/mb-system/">Documentation</a>
+   </li>
+   <li><i class="fa-li fab fa-github fa-fw"></i>
+      <a href="https://github.com/dwcaress/MB-System">dwcaress/MB-System</a>
+   </li>
+</ul></section>
+</section>
+</section>
+
+    
+    </div>
+    
+
+
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+            <p>
+                &copy; Copyright 2019 - 2025, The GMT Developers.
+            </p>
+            <p>
+                
+                    Created using
+                    <a href="http://sphinx-doc.org/">Sphinx</a> 7.1.2
+                
+                from source code at
+                <a href="https://github.com/GenericMappingTools/website/">GenericMappingTools/website</a>.
+                
+                    Last updated on 2025-04-24.
+                
+            </p>
+            <p>
+                GMT is supported by the
+                <a href="https://www.soest.hawaii.edu">School of Ocean and Earth Science and Technology</a>
+                of the University of Hawai'i at Mānoa and grants from the
+                <a href="https://www.nsf.gov">National Science Foundation</a>.
+            </p>
+            </div>
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <a href="https://www.soest.hawaii.edu"><img src="https://www.generic-mapping-tools.org/_static/soest-logo.png"></a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a href="https://www.nsf.gov"><img src="https://www.generic-mapping-tools.org/_static/nsf-logo.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+  </body>
+</html>
